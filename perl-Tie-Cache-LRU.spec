@@ -20,7 +20,7 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Tie::Cache-LRU
 Summary(zh_CN):	Tie::Cache-LRU Perl Ä£¿é
 Name:		perl-Tie-Cache-LRU
 Version:	0.21
-Release:	1
+Release:	2
 License:	?
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -31,19 +31,19 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie::Cache-LRU - This is an implementation of a least-recently used (LRU)
-cache keeping the cache in RAM.
+Tie::Cache-LRU - This is an implementation of a least-recently used
+(LRU) cache keeping the cache in RAM.
 
-A LRU cache is similar to the kind of cache used by a web browser.
-New items are placed into the top of the cache.  When the cache grows
-past its size limit, it throws away items off the bottom.  The trick
-is that whenever an item is -accessed-, it is pulled back to the top.
-The end result of all this is that items which are frequently accessed
-tend to stay in the cache.
+A LRU cache is similar to the kind of cache used by a web browser. New
+items are placed into the top of the cache. When the cache grows past
+its size limit, it throws away items off the bottom. The trick is that
+whenever an item is -accessed-, it is pulled back to the top. The end
+result of all this is that items which are frequently accessed tend to
+stay in the cache.
 
 %description -l pl
-Tie::Cache-LRU - jest to implementacja buforowania "ostatnio u¿ywanych"
-(least-recently used - LRU), buforuj±ca w pamiêci RAM.
+Tie::Cache-LRU - jest to implementacja buforowania "ostatnio
+u¿ywanych" (least-recently used - LRU), buforuj±ca w pamiêci RAM.
 
 Cache LRU jest podobny do u¿ywanego przez przegl±darki WWW. Nowe
 elementy s± umieszczane na szczycie cache'u. Gdy graniczny rozmiar
@@ -71,6 +71,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_sitelib}/Tie/Cache
 %{perl_sitelib}/Tie/Cache/LRU
 %{perl_sitelib}/Tie/Cache/LRU.pm
 %{_mandir}/man3/*
