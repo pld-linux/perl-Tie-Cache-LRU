@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Tie::Cache-LRU
 Summary(it):	Modulo di Perl Tie::Cache-LRU
 Summary(ja):	Tie::Cache-LRU Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Tie::Cache-LRU ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Tie::Cache-LRU
+Summary(nb):	Perlmodul Tie::Cache-LRU
 Summary(pl):	Modu³ perla Tie::Cache-LRU - buforowanie "ostatnio u¿ywanych"
 Summary(pt_BR):	Módulo Perl Tie::Cache-LRU
 Summary(pt):	Módulo de Perl Tie::Cache-LRU
