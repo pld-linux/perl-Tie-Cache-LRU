@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Tie
 %define		pnam	Cache-LRU
@@ -6,7 +10,7 @@ Summary(pl):	Modu³ Perla Tie::Cache-LRU - buforowanie "ostatnio u¿ywanych"
 Name:		perl-Tie-Cache-LRU
 Version:	0.21
 Release:	3
-License:	?
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	114890d5a3c1ecf6f51d743086c5372f
@@ -47,10 +51,13 @@ pozostawania w cache'u.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
