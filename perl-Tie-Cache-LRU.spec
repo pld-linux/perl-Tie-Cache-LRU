@@ -1,23 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Tie
 %define		pnam	Cache-LRU
-Summary:	Tie::Cache-LRU Perl module - A Least-Recently Used cache
-Summary(cs):	Modul Tie::Cache-LRU pro Perl
-Summary(da):	Perlmodul Tie::Cache-LRU
-Summary(de):	Tie::Cache-LRU Perl Modul
-Summary(es):	Módulo de Perl Tie::Cache-LRU
-Summary(fr):	Module Perl Tie::Cache-LRU
-Summary(it):	Modulo di Perl Tie::Cache-LRU
-Summary(ja):	Tie::Cache-LRU Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Tie::Cache-LRU ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul Tie::Cache-LRU
+Summary:	Tie::Cache-LRU Perl module - a Least-Recently Used cache
 Summary(pl):	Modu³ perla Tie::Cache-LRU - buforowanie "ostatnio u¿ywanych"
-Summary(pt_BR):	Módulo Perl Tie::Cache-LRU
-Summary(pt):	Módulo de Perl Tie::Cache-LRU
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Tie::Cache-LRU
-Summary(sv):	Tie::Cache-LRU Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Tie::Cache-LRU
-Summary(zh_CN):	Tie::Cache-LRU Perl Ä£¿é
 Name:		perl-Tie-Cache-LRU
 Version:	0.21
 Release:	3
