@@ -2,7 +2,7 @@
 %define		pdir	Tie
 %define		pnam	Cache-LRU
 Summary:	Tie::Cache-LRU Perl module - a Least-Recently Used cache
-Summary(pl):	Modu³ perla Tie::Cache-LRU - buforowanie "ostatnio u¿ywanych"
+Summary(pl):	Modu³ Perla Tie::Cache-LRU - buforowanie "ostatnio u¿ywanych"
 Name:		perl-Tie-Cache-LRU
 Version:	0.21
 Release:	3
