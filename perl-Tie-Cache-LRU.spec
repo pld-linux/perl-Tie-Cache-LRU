@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	Cache-LRU
+%define		pdir	Tie
+%define		pnam	Cache-LRU
 Summary:	Tie::Cache-LRU Perl module - a Least-Recently Used cache
 Summary(pl):	Modu³ Perla Tie::Cache-LRU - buforowanie "ostatnio u¿ywanych"
 Name:		perl-Tie-Cache-LRU
