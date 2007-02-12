@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	Cache-LRU
 Summary:	Tie::Cache-LRU Perl module - a Least-Recently Used cache
-Summary(pl):	Modu³ Perla Tie::Cache-LRU - buforowanie "ostatnio u¿ywanych"
+Summary(pl.UTF-8):   ModuÅ‚ Perla Tie::Cache-LRU - buforowanie "ostatnio uÅ¼ywanych"
 Name:		perl-Tie-Cache-LRU
 Version:	0.21
 Release:	4
@@ -31,16 +31,16 @@ whenever an item is -accessed-, it is pulled back to the top. The end
 result of all this is that items which are frequently accessed tend to
 stay in the cache.
 
-%description -l pl
+%description -l pl.UTF-8
 Tie::Cache-LRU - jest to implementacja buforowania "ostatnio
-u¿ywanych" (least-recently used - LRU), buforuj±ca w pamiêci RAM.
+uÅ¼ywanych" (least-recently used - LRU), buforujÄ…ca w pamiÄ™ci RAM.
 
-Cache LRU jest podobny do u¿ywanego przez przegl±darki WWW. Nowe
-elementy s± umieszczane na szczycie cache'u. Gdy graniczny rozmiar
-cache zostanie przekroczony, wyrzucane s± z niego elementy znajduj±ce
-siê na dole. Sztuczka polega na tym, ¿e gdy wystêpuje --dostêp-- do
+Cache LRU jest podobny do uÅ¼ywanego przez przeglÄ…darki WWW. Nowe
+elementy sÄ… umieszczane na szczycie cache'u. Gdy graniczny rozmiar
+cache zostanie przekroczony, wyrzucane sÄ… z niego elementy znajdujÄ…ce
+siÄ™ na dole. Sztuczka polega na tym, Å¼e gdy wystÄ™puje --dostÄ™p-- do
 elementu, jest on przenoszony na szczyt. W wyniku tego wszystkie
-elementy, do których dostêp nastêpuje czêsto, maj± tendencjê do
+elementy, do ktÃ³rych dostÄ™p nastÄ™puje czÄ™sto, majÄ… tendencjÄ™ do
 pozostawania w cache'u.
 
 %prep
