@@ -8,15 +8,22 @@
 Summary:	Tie::Cache-LRU Perl module - a Least-Recently Used cache
 Summary(pl.UTF-8):	Moduł Perla Tie::Cache-LRU - buforowanie "ostatnio używanych"
 Name:		perl-Tie-Cache-LRU
-Version:	0.21
-Release:	4
+Version:	20081023.2116
+Release:	1
+Epoch:		1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	114890d5a3c1ecf6f51d743086c5372f
+# Source0-md5:	38053411c06ba8199922111adad4bcef
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-Carp-Assert
+BuildRequires:	perl-Class-Data-Inheritable
 BuildRequires:	perl-Class-Virtual
+BuildRequires:	perl-enum
+BuildRequires:	perl-Test-Simple >= 0.82
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
