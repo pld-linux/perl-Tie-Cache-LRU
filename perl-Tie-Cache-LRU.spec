@@ -8,7 +8,7 @@ Summary:	Tie::Cache-LRU Perl module - a Least-Recently Used cache
 Summary(pl.UTF-8):	Moduł Perla Tie::Cache-LRU - buforowanie "ostatnio używanych"
 Name:		perl-Tie-Cache-LRU
 Version:	20081023.2116
-Release:	1
+Release:	2
 Epoch:		1
 License:	unknown
 Group:		Development/Languages/Perl
